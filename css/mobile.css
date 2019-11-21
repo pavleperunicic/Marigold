@@ -1,0 +1,110 @@
+* {
+    font-size: 0.6rem;
+}
+
+#main-nav .logo {
+    width: 50px;
+    height: 40px;
+}
+#main-nav ul li a {
+    font-size: 0.8rem;
+}
+.container h1 a {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin: auto;
+    color: var(--secondary-color)
+}
+#main-nav .social {
+    justify-self: center;
+    display: flex;
+}
+#main-nav .social i {
+    margin-right: 0.5rem;
+    font-size: 1.5rem;
+}
+#showcase {
+    height: 60vh;
+}
+#showcase .showcase-content {
+    height: 60vh;
+    top: 0px;
+}
+.title p {
+    margin: 0 0.5rem;
+}
+.feature-area {
+    padding: 20px 0px;
+}
+.single-feature h3 {
+    font-size: 1.5rem
+}
+.single-feature p {
+    font-size: 1rem;
+    padding: 0 6rem
+}
+.feature-block {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+}
+.featured-icon {
+    display: inline-block;
+    margin: 5px;
+    color: var(--secondary-color);
+    font-size: 1rem;
+    border: 2px solid white;
+    border-radius: 100%;
+    padding: 4px;
+    background-color: white;
+}
+.featured-icon i {
+    font-size: 2rem;
+}
+
+.single-feature {
+    border: none;
+    padding: 1rem;
+}
+.sub-heading {
+    position: relative;
+    margin-bottom: 2rem;
+    text-align: center;
+}
+#contact-info .btn-cta h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    padding: 0.5rem 1.5rem;
+
+}
+.box {
+    padding: 2rem 1rem 2rem 1rem;
+}
+.box h3, p {
+    font-size: 1rem;
+}
+#main-footer img {
+    width: 100%;
+    padding: 0 1rem;
+}
+#main-footer .footer-brand :first-child {
+    align-self: center;
+}
+.footer-container p {
+    font-size: 1rem;
+    display: inline-block;
+    margin: 0.5rem;
+}
+#main-footer .footer-social a {
+    padding: 0.5rem 1rem 1rem 0.5rem;
+    font-size: 1rem;
+    display: flex;
+}
+#main-footer .footer-list {
+    display: grid;
+}
+#main-footer .footer-container .footer-list li a {
+    font-size: 1.5rem
+}
+
